@@ -5,10 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tarjetas</title>
   <link rel="stylesheet" href="tarjetas.css">
-  <script src="tarjetas.js" defer></script>
 </head>
 <body>
-
   <div class="top">
     <button class="btn" onclick="crearTarjetas()">Generar</button>
 
@@ -19,8 +17,10 @@
       <div>
         <input type="number" id="txtHasta" placeholder="hasta"/>
       </div>
+      <div>
+        <input type="number" id="txtSalto" placeholder="salto"/>
+      </div>
     </div>
-
   </div>
 
   <div class="contenedor" id="divTarjetas">
@@ -29,5 +29,6 @@
     <div class="item">3</div>
   </div>
 
+<script src="tarjetas.js" defer></script>
 </body>
 </html>
