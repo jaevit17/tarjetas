@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  background: linear-gradient(235deg, #ae0000, #efeee6);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,7 +28,7 @@ body {
 /* BOTÓN */
 .btn {
   background: white;
-  color: #2a5298;
+  color: #bc1509e8;
   border: none;
   padding: 12px 24px;
   font-size: 16px;
@@ -40,7 +40,7 @@ body {
 }
 
 .btn:hover {
-  background: #2a5298;
+  background: #e24c4c;
   color: white;
   transform: scale(1.05);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
@@ -58,7 +58,7 @@ body {
 /* TARJETAS */
 .item {
   background: white;
-  color: #2a5298;
+  color: #ea430b;
   font-size: 22px;
   font-weight: bold;
   border-radius: 15px;
@@ -71,7 +71,7 @@ body {
 }
 
 .item:hover {
-  background: #bc1294;
+  background: #e5b3ad;
   transform: scale(1.05);
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
 }
@@ -94,7 +94,7 @@ outline: none;
 font-size: 14px;
 text-align: center;
 font-weight: bold;
-color: #2a5298;
+color: #121213;
 background: white;
 box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 transition: all 0.25s ease;
